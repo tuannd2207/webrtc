@@ -1,0 +1,10 @@
+<h1>WebRTC Mediasoup App</h1>
+<div style="text-align: center;">
+  <video #localVideo autoplay playsinline muted
+         style="width: 320px; height: 240px; border: 1px solid #ccc; margin: 10px;"></video>
+  <video #remoteVideo autoplay playsinline
+         style="width: 320px; height: 240px; border: 1px solid #ccc; margin: 10px;"></video>
+  <div>
+    <button (click)="start()">Start Stream</button>
+    <button (click)="stop()">Stop Stream</button>
+  </div>
